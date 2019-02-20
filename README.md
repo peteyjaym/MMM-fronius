@@ -17,16 +17,15 @@ This module works for me but may have many MANY bugs and errors,
 
 ## Configuration
 just add the inverter ip as shown below:
-
- {
-    module: 'MMM-fronius',	
-    position: 'top_center',	
-    config: {
-		
-      ipaddfr:[
-                'xx.xx.xx.xx', //inverter ip
-        ],
-}
+	{
+		module: 'MMM-fronius',	
+		position: 'top_center',	
+		config: {
+			ipaddfr:[
+				'xx.xx.xx.xx', //inverter ip
+				],
+			}
+	},
 
 no configuration is required as all values are hard coded into the main file,   just add your inverter ip.
 
