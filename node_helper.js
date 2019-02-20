@@ -3,7 +3,7 @@ const request = require("request");
 
 module.exports = NodeHelper.create({
   start: function () {
-    console.log("mmm-json-feed helper started...");
+    console.log("MMM-fronius helper started...");
   },
 
   getStats: function (urls) {
@@ -30,6 +30,7 @@ module.exports = NodeHelper.create({
       request(url, function (err, res, body) {
         if (err) { return reject(err); }
         return resolve(JSON.parse(body));
+
       });
     });
   },
