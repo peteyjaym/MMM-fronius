@@ -5,6 +5,8 @@ This module shows solar output,  grid draw and total load,
 
 Module is a quick and dirty modified version of MMM-json-feed by Amcolash,   all credit for the main code goes to him. 
 
+This module works for me but may have many MANY bugs and errors, 
+
 ## Install
 `cd MagicMirror/modules`
 `git clone https://github.com/peteyjaym/MMM-fronius'
