@@ -19,9 +19,10 @@ This module works for me but may have many MANY bugs and errors,
 just add the inverter ip as shown below:
 
  {
-    module: 'MMM-fronius',
-    position: 'top_center',
+    module: 'MMM-fronius',	
+    position: 'top_center',	
     config: {
+		
       ipaddfr:[
                 'xx.xx.xx.xx', //inverter ip
         ],
