@@ -30,5 +30,6 @@ just add the inverter ip as shown below:
 no configuration is required as all values are hard coded into the main file,   just add your inverter ip.
 
 
-NOTE:   This is a quick and dirty implimentation and is in no way optimised,  i have no intention of performing any major updates/adding features but you never know 
+NOTE:   This is a quick and dirty implimentation and is in no way optimised,  
+i have no intention of performing any major updates/adding features but you never know 
 
